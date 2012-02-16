@@ -32,7 +32,7 @@ Requires: %{name}%{?_isa} = %{version}-%{release}
 
 %prep
 # wtf ?  -- Rex
-%setup -q -n mxcl-liblastfm-1c739eb
+%setup -q -n mxcl-liblastfm-f0b3239
 
 %patch1 -p1 -b .qmake
 
