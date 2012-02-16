@@ -8,7 +8,7 @@ Group:		System Environment/Libraries
 License:	GPLv2+
 URL:		http://github.com/mxcl/liblastfm/tree/master 
 # redirect from http://github.com/mxcl/liblastfm/tarball/%{version}
-Source0:	http://download.github.com/mxcl-liblastfm-%{version}-0-gf0b3239.tar.gz
+Source0:	mxcl-liblastfm-%{version}-0-gf0b3239.tar.gz
 BuildRoot:	%(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 
 Patch1: liblastfm-0.3.2-qmake.patch
